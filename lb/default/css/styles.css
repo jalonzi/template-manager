@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body,html {
+    margin:0 auto;
+    background:#EEE;
+    font-size:12px;
+    font-family:sans-serif;
+}
+
+#content {
+    position:relative;
+    margin:15px auto;
+    width:1003px;
+    background:#FFF;
+    border-left:1px #CCC solid;
+    border-right:1px #CCC solid;
+    border-top:3px #CCC solid;
+    box-shadow:0 2px 1px rgba(0,0,0,0.15);
+}
+
+#header {
+    position:relative;
+    padding:10px 0 10px 15px;
+    border-bottom:1px #FFF solid;
+    box-shadow:0 1px 0 #CCC;
+    margin:0 0 15px 0;
+    background:#EEE;
+}
+
+#page-content {
+    position:relative;
+    padding:15px 10px;
+    min-height:500px;
+}
+#page-content p {
+    padding:10px 20px 10px 15px;
+    text-align:justify;
+    line-height:22px;
+}
+
+#footer {
+    position:relative;
+    width:100%;
+    background:#222;
+    color:#FFF;
+}
+#footer-frame {
+    margin:0 auto;
+    width:1003px;
+    padding:15px 0;
+    text-align:center;
+}
